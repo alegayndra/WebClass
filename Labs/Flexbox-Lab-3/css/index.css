@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+li {
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #505050;
+  color: white;
+}
+
+.logo > img {
+  width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product {
+  border: 1px solid #a0a0a0;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+}
+
+@media (max-width:599px){
+
+  .navbar > ul > li {
+
+    font-size: 0;
+    float: left;
+
+  }
+  
+  .navbar > .hamburger {
+    margin-left: auto;
+    width: 20px;
+  }
+
+  .product > p {
+    padding: 5px;
+    text-align: start;
+  }
+}
+
+@media (min-width:600px) and (max-width:990px) {
+
+  .logo > img {
+    float: left;
+    margin-left: 5vw; 
+  }
+
+  .navbar > ul > li {
+    font-size: 0;
+    float: left;
+  }
+  
+  .navbar > .hamburger {
+    margin-left: auto;
+    width: 20px;
+  }
+
+  .product > p {
+    padding: 5px;
+    text-align: start;
+  }
+}
+
+@media (min-width:991px) {
+
+  main {
+    display: flex;
+  }
+
+  .product {
+    width: 33%;
+  }
+
+  .logo > img {
+    float: left;
+    margin-left: 5vw; 
+  }
+
+  .navbar > ul{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar > ul > li {
+    margin: 10px;
+  }
+  
+  .navbar > .hamburger {
+    font-size: 0;
+    float: left;
+  }
+}

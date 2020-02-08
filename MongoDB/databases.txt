@@ -1,0 +1,58 @@
+Databases
+
+Relational:
+- Tables
+- Relationships
+- Rows/Tuples
+- Unique PK
+- Querying
+
+Non-Relational:
+- Collective
+- Relationships
+- Documents
+- Querying
+
+{
+    name: "Mario",
+    id: "123456", // not necesarily unique
+    _id: ______ // automatically made by mongoDB and is unique
+}
+
+SELECT *
+FROM Table
+WHERE Condition
+
+collectionName.find( condition = {name: "Mario"} ) // returns all objects with the name of Mario
+
+.findOne() // returns the first object that finds
+
+find = SELECT
+collectionName = Table
+condition = Condition
+
+
+UPDATE Table
+WHERE Condition
+SET Values
+
+let doc = collectionName.findOne({id: 123456})
+
+collectionName.updateOne({_id: doc._id}, {$set{name: "María"}};
+
+
+DELETE
+FROM Table
+WHERE Condition
+
+collectionName.remove({_id: doc._id});
+
+INSERT INTO Table 
+Values (__, __, __)
+
+let newDoc = {
+    name: "Ana",
+    id: 654321
+}
+
+collectionName.insert(newDoc);

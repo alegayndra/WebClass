@@ -1,0 +1,124 @@
+/* 
+* element name
+* #id
+* .class
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #4f545f;
+    font-size: 13px;
+    font-family: verdana, sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0%;
+    color: white;
+    background-color: #55b3c5;
+}
+
+fieldset {
+    border: 2px dashed #DDD;
+    margin: 20px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 1.3em;
+    font-weight: 900; /*1-999*/
+}
+
+fieldset > div {
+    /* padding: 40px;  */
+    background: url(./../../../repos/fork/web-class-practice/assets/sad_cat.jpg) no-repeat center #cce9f8;
+    border: 1px solid #6278b0;
+    color: #42579c;
+    display: block;
+    /* background-image: url(./../../repos/fork/web-class-practice/assets/sad_cat.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;  */
+    /* background-position: 10px 10px; */
+    background-size: 20% 40%;
+}
+
+.formElement, select {
+    padding: 5px 10px;
+    width: 250px;
+}
+
+.formButton {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.formButton, hover {
+    cursor: pointer;
+}
+
+#submitButton {
+    color: #56C56F;
+}
+
+#cancelButton {
+    color: #D9539f;
+    margin-right: 20px;
+}
+
+#navMenu {
+    list-style: none;
+    background-color: #CCC;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navMenu > li {
+    float: left;
+    padding: 20px;
+}
+
+#navMenu > li, hover {
+    color: white;
+    cursor: pointer;
+    background-color: #999;
+}
+
+/* fieldset > div {}
+
+fieldset div {}
+
+fieldset div.info{} */
+
+/* h3 {
+    
+}
+
+p {
+
+}
+
+#heading {
+    border-image-width: 
+} */
+
+/* .container {
+    background-color: yellow;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding: 5px 15px 10px 20px;
+    padding: 20px 5px;
+
+    border: 2px solid blue;
+} */

@@ -1,0 +1,33 @@
+.listItem{
+    border: 1px solid gray;
+    padding: 10px;
+    width: 200px;
+    color: gray;
+    font-style: italic;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+li{
+    color: blue;
+}
+
+.perro {
+    font-style: italic;
+}
+
+.gato{
+    border: 1px dotted black;
+}
+
+#pg {
+    font-size: 10px;
+}
+
+#sg {
+    font-size: 12px;
+}
+
+#pp {
+    font-size: 30px;
+}

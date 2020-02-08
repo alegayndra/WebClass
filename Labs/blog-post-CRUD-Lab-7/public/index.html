@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CRUD Blog-post</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/index.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <h1>CRUD Blog post</h1>
+
+        <section class="form" hidden>
+            <h2 id="titleForm">Create post</h2>
+
+            <span class="error" id="formError" hidden>There was an error</span>
+
+            <div class="titleNewPost">
+                <div>
+                    <label for="newTitle"> Title </label>
+                </div>
+                <input id="newTitle" type="text" />
+            </div>
+            
+            <div class="contentNewPost">
+                <div>
+                    <label for="newContent"> Content </label>
+                </div>
+                <textarea name="message"  id="newContent"></textarea> 
+            </div>
+
+            <div class="authorNewPost">
+                <div>
+                    <label for="newAuthor"> Author </label>
+                </div>
+                <input id="newAuthor" type="text" /> 
+                
+            </div>
+
+            <button id="cancelBtnForm">Cancel</button>
+            <button id="btnForm">Create post</button>
+            
+        </section>
+
+        <section class="posts">
+            <h2>Posts</h2>
+
+            <button id="postBtn">POST</button>
+
+            <div class="listOfPosts">
+            </div>
+    
+            
+        </section>
+        
+        
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./src/index.js"></script>
+    
+    </body>
+</html>

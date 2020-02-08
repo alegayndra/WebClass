@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jammer</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <header class="navbar navbar-default">
+      <h1 class="todoTitle">
+        Todo List
+      </h1>
+    </header>
+
+    <main class="wrapper" role="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3>
+                  New todo
+                </h3>
+              </div>
+              <div class="panel-body">
+                <form class="todoForm">
+                  <fieldset>
+                    <textarea id="newTodo" class="newTodo form-control"></textarea>
+                    <button type="submit" class="submitButton" id="submitButton">
+                      Post Todo
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3>List of todo's</h3>
+              </div>
+              <div id="todoList" class="listOfTodos panel-body">
+                
+              </div>
+              <div class="buttons">
+                <button id="clearButton" class="clearButton btn-info"> 
+                  Clear all Todo's
+                </button>
+                <button id="markAllButton" class="markAllButton btn-success"> 
+                  Mark all Todo's
+                </button>
+                <button id="deleteButton" class="deleteButton btn-danger"> 
+                  Delete all Todo's
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer role="footer" class="footer">
+      Todo list application
+    </footer>
+
+    <script src="./js/index.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 5px;
+}
+
+h1 {
+    color: #4488BB;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+}
+
+input, textarea {
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+}
+
+textarea {
+    height: 50px;
+}
+
+.error {
+    color: red;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#btnForm, #cancelBtnForm {
+    height: 40px;
+    width: 80px;
+}
+
+.listOfPosts {
+    padding: 0px 10px;
+    margin: 10px 5px;
+}
+
+.post {
+    margin: 15px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cadetblue;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.author, .date {
+    font-style: italic;
+    font-size: 14px;
+}

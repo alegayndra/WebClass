@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>fizzbuzz drill</title>
+    <link rel="shortcut icon" href="#">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <h1>Fizz Buzz</h1>
+      <section>
+        <p>In this game, you enter a positive number, and I count from 0 to that number, subbing in "fizz" if it's divisible by 3, "buzz" if it's divisible by 5, and "fizzbuzz" if it's divisible by both</p>
+        <form id="number-chooser" action="/some-server-endpoint">
+          <label for="number-choice">Choose a positive number</label>
+          <input id="number-choice" name="number-choice" type="number" required />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section>
+        <h2>Results</h2>
+        <div class="js-results"></div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
