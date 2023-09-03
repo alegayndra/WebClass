@@ -21,7 +21,7 @@ function newsArticle(article) {
         <p>${description}</p>
         <p>${publishedAt}</p>
         <p>${content}</p>
-        <a>${url}</a>
+        <a href="${url}" >${url}</a>
         ${urlToImage ? `<img src="${urlToImage}" width="400px" height="auto" />` : ""}
     </div>`;
 }
