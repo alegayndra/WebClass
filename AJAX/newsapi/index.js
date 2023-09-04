@@ -47,6 +47,7 @@ function watchForm() {
                 ContentType: "application/json", // type of snet data in the request
                 success: function(responseJSON){
                     console.log(responseJSON);
+                    $(".results").html('')
                     const articles = responseJSON.articles || [];
                     articles.forEach(article => {
                         $(".results").append(newsArticle(article));
