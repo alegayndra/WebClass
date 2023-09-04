@@ -17,7 +17,13 @@ function watchForm() {
             }
         }
 
-        console.log(sequence);
+        // console.log(sequence);
+        const seq = sequence.reduce((accum, curr) => {
+            return accum ? `${accum}, ${curr}` : curr;
+        }, "")
+        const results = document.querySelector('.results');
+        console.log(results)
+        results.innerHTML = seq;
     })
 }
 
